@@ -1,0 +1,1492 @@
+1
+00:00:12,533 --> 00:00:14,165
+I'm going to be showing some of the cybercriminals'
+
+2
+00:00:14,165 --> 00:00:16,627
+latest and nastiest creations.
+
+3
+00:00:16,627 --> 00:00:19,535
+So basically, please don't go and download
+
+4
+00:00:19,535 --> 00:00:22,231
+any of the viruses that I show you.
+
+5
+00:00:22,231 --> 00:00:25,249
+Some of you might be wondering what a cybersecurity specialist looks like,
+
+6
+00:00:25,249 --> 00:00:27,418
+and I thought I'd give you a quick insight
+
+7
+00:00:27,418 --> 00:00:30,096
+into my career so far.
+
+8
+00:00:30,096 --> 00:00:32,597
+It's a pretty accurate description.
+
+9
+00:00:32,597 --> 00:00:34,253
+This is what someone that specializes
+
+10
+00:00:34,253 --> 00:00:36,673
+in malware and hacking looks like.
+
+11
+00:00:36,673 --> 00:00:40,087
+So today, computer viruses and trojans,
+
+12
+00:00:40,087 --> 00:00:42,967
+designed to do everything from stealing data
+
+13
+00:00:42,967 --> 00:00:45,008
+to watching you in your webcam
+
+14
+00:00:45,008 --> 00:00:47,786
+to the theft of billions of dollars.
+
+15
+00:00:47,786 --> 00:00:49,981
+Some malicious code today goes as far
+
+16
+00:00:49,981 --> 00:00:54,124
+as targeting power, utilities and infrastructure.
+
+17
+00:00:54,124 --> 00:00:56,085
+Let me give you a quick snapshot
+
+18
+00:00:56,085 --> 00:00:58,699
+of what malicious code is capable of today.
+
+19
+00:00:58,699 --> 00:01:01,769
+Right now, every second, eight new users
+
+20
+00:01:01,769 --> 00:01:03,924
+are joining the Internet.
+
+21
+00:01:03,924 --> 00:01:11,232
+Today, we will see 250,000 individual new computer viruses.
+
+22
+00:01:11,232 --> 00:01:17,005
+We will see 30,000 new infected websites.
+
+23
+00:01:17,005 --> 00:01:19,091
+And, just to kind of tear down a myth here,
+
+24
+00:01:19,091 --> 00:01:21,579
+lots of people think that when you get infected
+
+25
+00:01:21,579 --> 00:01:25,030
+with a computer virus, it's because you went to a porn site.
+
+26
+00:01:25,030 --> 00:01:27,473
+Right? Well, actually, statistically speaking,
+
+27
+00:01:27,473 --> 00:01:30,598
+if you only visit porn sites, you're safer.
+
+28
+00:01:30,598 --> 00:01:33,600
+People normally write that down, by the way. (Laughter)
+
+29
+00:01:33,600 --> 00:01:35,162
+Actually, about 80 percent of these
+
+30
+00:01:35,162 --> 00:01:38,675
+are small business websites getting infected.
+
+31
+00:01:38,675 --> 00:01:40,960
+Today's cybercriminal, what do they look like?
+
+32
+00:01:40,960 --> 00:01:43,386
+Well, many of you have the image, don't you,
+
+33
+00:01:43,386 --> 00:01:45,562
+of the spotty teenager sitting in a basement,
+
+34
+00:01:45,562 --> 00:01:47,950
+hacking away for notoriety.
+
+35
+00:01:47,950 --> 00:01:49,573
+But actually today, cybercriminals
+
+36
+00:01:49,573 --> 00:01:52,884
+are wonderfully professional and organized.
+
+37
+00:01:52,884 --> 00:01:55,755
+In fact, they have product adverts.
+
+38
+00:01:55,755 --> 00:01:57,886
+You can go online and buy a hacking service
+
+39
+00:01:57,886 --> 00:02:00,035
+to knock your business competitor offline.
+
+40
+00:02:00,035 --> 00:02:01,594
+Check out this one I found.
+
+41
+00:02:01,594 --> 00:02:03,413
+(Video) Man: So you're here for one reason,
+
+42
+00:02:03,413 --> 00:02:04,878
+and that reason is
+
+43
+00:02:04,878 --> 00:02:06,790
+because you need your business competitors,
+
+44
+00:02:06,790 --> 00:02:10,742
+rivals, haters, or whatever the reason is, or who,
+
+45
+00:02:10,742 --> 00:02:12,486
+they are to go down.
+
+46
+00:02:12,486 --> 00:02:15,346
+Well you, my friend, you've came to the right place.
+
+47
+00:02:15,346 --> 00:02:17,762
+If you want your business competitors to go down,
+
+48
+00:02:17,762 --> 00:02:19,098
+well, they can.
+
+49
+00:02:19,098 --> 00:02:22,522
+If you want your rivals to go offline, well, they will.
+
+50
+00:02:22,522 --> 00:02:25,549
+Not only that, we are providing a short-term-to-long-term
+
+51
+00:02:25,549 --> 00:02:27,904
+DDOS service or scheduled attack,
+
+52
+00:02:27,904 --> 00:02:31,715
+starting five dollars per hour for small personal websites
+
+53
+00:02:31,715 --> 00:02:34,619
+to 10 to 50 dollars per hour.
+
+54
+00:02:34,619 --> 00:02:35,942
+James Lyne: Now, I did actually pay
+
+55
+00:02:35,942 --> 00:02:38,735
+one of these cybercriminals to attack my own website.
+
+56
+00:02:38,735 --> 00:02:42,229
+Things got a bit tricky when I tried to expense it at the company.
+
+57
+00:02:42,229 --> 00:02:43,943
+Turns out that's not cool.
+
+58
+00:02:43,943 --> 00:02:46,953
+But regardless, it's amazing how many products
+
+59
+00:02:46,953 --> 00:02:50,065
+and services are available now to cybercriminals.
+
+60
+00:02:50,065 --> 00:02:52,541
+For example, this testing platform,
+
+61
+00:02:52,541 --> 00:02:54,256
+which enables the cybercriminals
+
+62
+00:02:54,256 --> 00:02:56,738
+to test the quality of their viruses
+
+63
+00:02:56,738 --> 00:02:59,190
+before they release them on the world.
+
+64
+00:02:59,190 --> 00:03:01,147
+For a small fee, they can upload it
+
+65
+00:03:01,147 --> 00:03:02,813
+and make sure everything is good.
+
+66
+00:03:02,813 --> 00:03:04,346
+But it goes further.
+
+67
+00:03:04,346 --> 00:03:06,591
+Cybercriminals now have crime packs
+
+68
+00:03:06,591 --> 00:03:09,710
+with business intelligence reporting dashboards
+
+69
+00:03:09,710 --> 00:03:13,186
+to manage the distribution of their malicious code.
+
+70
+00:03:13,186 --> 00:03:16,714
+This is the market leader in malware distribution,
+
+71
+00:03:16,714 --> 00:03:18,352
+the Black Hole Exploit Pack,
+
+72
+00:03:18,352 --> 00:03:22,011
+responsible for nearly one third of malware distribution
+
+73
+00:03:22,011 --> 00:03:23,985
+in the last couple of quarters.
+
+74
+00:03:23,985 --> 00:03:26,994
+It comes with technical installation guides,
+
+75
+00:03:26,994 --> 00:03:28,039
+video setup routines,
+
+76
+00:03:28,039 --> 00:03:31,994
+and get this, technical support.
+
+77
+00:03:31,994 --> 00:03:34,382
+You can email the cybercriminals and they'll tell you
+
+78
+00:03:34,382 --> 00:03:38,004
+how to set up your illegal hacking server.
+
+79
+00:03:38,004 --> 00:03:42,288
+So let me show you what malicious code looks like today.
+
+80
+00:03:42,288 --> 00:03:44,600
+What I've got here is two systems,
+
+81
+00:03:44,600 --> 00:03:48,290
+an attacker, which I've made look all Matrix-y and scary,
+
+82
+00:03:48,290 --> 00:03:51,592
+and a victim, which you might recognize from home or work.
+
+83
+00:03:51,592 --> 00:03:54,321
+Now normally, these would be on different sides
+
+84
+00:03:54,321 --> 00:03:56,876
+of the planet or of the Internet,
+
+85
+00:03:56,876 --> 00:03:58,272
+but I've put them side by side
+
+86
+00:03:58,272 --> 00:04:00,936
+because it makes things much more interesting.
+
+87
+00:04:00,936 --> 00:04:02,991
+Now, there are many ways you can get infected.
+
+88
+00:04:02,991 --> 00:04:05,583
+You will have come in contact with some of them.
+
+89
+00:04:05,583 --> 00:04:07,679
+Maybe some of you have received an email
+
+90
+00:04:07,679 --> 00:04:11,764
+that says something like, "Hi, I'm a Nigerian banker,
+
+91
+00:04:11,764 --> 00:04:14,528
+and I'd like to give you 53 billion dollars
+
+92
+00:04:14,528 --> 00:04:16,955
+because I like your face."
+
+93
+00:04:16,955 --> 00:04:20,349
+Or funnycats.exe, which rumor has it
+
+94
+00:04:20,349 --> 00:04:24,118
+was quite successful in China's recent campaign against America.
+
+95
+00:04:24,118 --> 00:04:26,548
+Now there are many ways you can get infected.
+
+96
+00:04:26,548 --> 00:04:28,535
+I want to show you a couple of my favorites.
+
+97
+00:04:28,535 --> 00:04:31,195
+This is a little USB key.
+
+98
+00:04:31,195 --> 00:04:33,352
+Now how do you get a USB key to run in a business?
+
+99
+00:04:33,352 --> 00:04:37,477
+Well, you could try looking really cute.
+
+100
+00:04:37,477 --> 00:04:39,415
+Awww.
+
+101
+00:04:39,415 --> 00:04:41,778
+Or, in my case, awkward and pathetic.
+
+102
+00:04:41,778 --> 00:04:45,967
+So imagine this scenario: I walk into one of your businesses,
+
+103
+00:04:45,967 --> 00:04:48,809
+looking very awkward and pathetic, with a copy of my C.V.
+
+104
+00:04:48,809 --> 00:04:50,708
+which I've covered in coffee,
+
+105
+00:04:50,708 --> 00:04:54,095
+and I ask the receptionist to plug in this USB key
+
+106
+00:04:54,095 --> 00:04:56,044
+and print me a new one.
+
+107
+00:04:56,044 --> 00:04:59,274
+So let's have a look here on my victim computer.
+
+108
+00:04:59,274 --> 00:05:02,520
+What I'm going to do is plug in the USB key.
+
+109
+00:05:02,520 --> 00:05:04,010
+After a couple of seconds,
+
+110
+00:05:04,010 --> 00:05:06,761
+things start to happen on the computer on their own,
+
+111
+00:05:06,761 --> 00:05:08,696
+usually a bad sign.
+
+112
+00:05:08,696 --> 00:05:10,390
+This would, of course, normally happen
+
+113
+00:05:10,390 --> 00:05:13,148
+in a couple of seconds, really, really quickly,
+
+114
+00:05:13,148 --> 00:05:14,808
+but I've kind of slowed it down
+
+115
+00:05:14,808 --> 00:05:17,638
+so you can actually see the attack occurring.
+
+116
+00:05:17,638 --> 00:05:20,155
+Malware is very boring otherwise.
+
+117
+00:05:20,155 --> 00:05:22,752
+So this is writing out the malicious code,
+
+118
+00:05:22,752 --> 00:05:26,549
+and a few seconds later, on the left-hand side,
+
+119
+00:05:26,549 --> 00:05:30,847
+you'll see the attacker's screen get some interesting new text.
+
+120
+00:05:30,847 --> 00:05:32,778
+Now if I place the mouse cursor over it,
+
+121
+00:05:32,778 --> 00:05:35,085
+this is what we call a command prompt,
+
+122
+00:05:35,085 --> 00:05:38,882
+and using this we can navigate around the computer.
+
+123
+00:05:38,882 --> 00:05:41,041
+We can access your documents, your data.
+
+124
+00:05:41,041 --> 00:05:42,542
+You can turn on the webcam.
+
+125
+00:05:42,542 --> 00:05:44,171
+That can be very embarrassing.
+
+126
+00:05:44,171 --> 00:05:45,894
+Or just to really prove a point,
+
+127
+00:05:45,894 --> 00:05:49,015
+we can launch programs like my personal favorite,
+
+128
+00:05:49,015 --> 00:05:51,820
+the Windows Calculator.
+
+129
+00:05:51,820 --> 00:05:54,108
+So isn't it amazing how much control
+
+130
+00:05:54,108 --> 00:05:57,003
+the attackers can get with such a simple operation?
+
+131
+00:05:57,003 --> 00:05:58,934
+Let me show you how most malware
+
+132
+00:05:58,934 --> 00:06:01,117
+is now distributed today.
+
+133
+00:06:01,117 --> 00:06:03,637
+What I'm going to do is open up a website
+
+134
+00:06:03,637 --> 00:06:04,953
+that I wrote.
+
+135
+00:06:04,953 --> 00:06:09,268
+It's a terrible website. It's got really awful graphics.
+
+136
+00:06:09,268 --> 00:06:11,462
+And it's got a comments section here
+
+137
+00:06:11,462 --> 00:06:15,143
+where we can submit comments to the website.
+
+138
+00:06:15,143 --> 00:06:18,150
+Many of you will have used something a bit like this before.
+
+139
+00:06:18,150 --> 00:06:20,097
+Unfortunately, when this was implemented,
+
+140
+00:06:20,097 --> 00:06:22,522
+the developer was slightly inebriated
+
+141
+00:06:22,522 --> 00:06:23,764
+and managed to forget
+
+142
+00:06:23,764 --> 00:06:26,753
+all of the secure coding practices he had learned.
+
+143
+00:06:26,753 --> 00:06:29,819
+So let's imagine that our attacker,
+
+144
+00:06:29,819 --> 00:06:33,267
+called Evil Hacker just for comedy value,
+
+145
+00:06:33,267 --> 00:06:35,290
+inserts something a little nasty.
+
+146
+00:06:35,290 --> 00:06:36,989
+This is a script.
+
+147
+00:06:36,989 --> 00:06:41,066
+It's code which will be interpreted on the webpage.
+
+148
+00:06:41,066 --> 00:06:43,391
+So I'm going to submit this post,
+
+149
+00:06:43,391 --> 00:06:45,773
+and then, on my victim computer,
+
+150
+00:06:45,773 --> 00:06:47,800
+I'm going to open up the web browser
+
+151
+00:06:47,800 --> 00:06:50,053
+and browse to my website,
+
+152
+00:06:50,053 --> 00:06:53,842
+www.incrediblyhacked.com.
+
+153
+00:06:53,842 --> 00:06:55,966
+Notice that after a couple of seconds,
+
+154
+00:06:55,966 --> 00:06:57,423
+I get redirected.
+
+155
+00:06:57,423 --> 00:06:59,400
+That website address at the top there,
+
+156
+00:06:59,400 --> 00:07:02,731
+which you can just about see, microshaft.com,
+
+157
+00:07:02,731 --> 00:07:05,924
+the browser crashes as it hits one of these exploit packs,
+
+158
+00:07:05,924 --> 00:07:09,948
+and up pops fake antivirus.
+
+159
+00:07:09,948 --> 00:07:15,004
+This is a virus pretending to look like antivirus software,
+
+160
+00:07:15,004 --> 00:07:17,369
+and it will go through and it will scan the system,
+
+161
+00:07:17,369 --> 00:07:18,877
+have a look at what its popping up here.
+
+162
+00:07:18,877 --> 00:07:20,625
+It creates some very serious alerts.
+
+163
+00:07:20,625 --> 00:07:22,968
+Oh look, a child porn proxy server.
+
+164
+00:07:22,968 --> 00:07:25,400
+We really should clean that up.
+
+165
+00:07:25,400 --> 00:07:26,984
+What's really insulting about this is
+
+166
+00:07:26,984 --> 00:07:31,222
+not only does it provide the attackers with access to your data,
+
+167
+00:07:31,222 --> 00:07:34,045
+but when the scan finishes, they tell you
+
+168
+00:07:34,045 --> 00:07:37,168
+in order to clean up the fake viruses,
+
+169
+00:07:37,168 --> 00:07:39,844
+you have to register the product.
+
+170
+00:07:39,844 --> 00:07:43,180
+Now I liked it better when viruses were free.
+
+171
+00:07:43,180 --> 00:07:45,959
+(Laughter)
+
+172
+00:07:45,959 --> 00:07:48,485
+People now pay cybercriminals money
+
+173
+00:07:48,485 --> 00:07:50,586
+to run viruses,
+
+174
+00:07:50,586 --> 00:07:53,347
+which I find utterly bizarre.
+
+175
+00:07:53,347 --> 00:07:56,883
+So anyway, let me change pace a little bit.
+
+176
+00:07:56,883 --> 00:08:00,389
+Chasing 250,000 pieces of malware a day
+
+177
+00:08:00,389 --> 00:08:02,044
+is a massive challenge,
+
+178
+00:08:02,044 --> 00:08:04,114
+and those numbers are only growing
+
+179
+00:08:04,114 --> 00:08:07,993
+directly in proportion to the length of my stress line, you'll note here.
+
+180
+00:08:07,993 --> 00:08:09,869
+So I want to talk to you briefly
+
+181
+00:08:09,869 --> 00:08:12,919
+about a group of hackers we tracked for a year
+
+182
+00:08:12,919 --> 00:08:14,926
+and actually found --
+
+183
+00:08:14,926 --> 00:08:17,503
+and this is a rare treat in our job.
+
+184
+00:08:17,503 --> 00:08:19,986
+Now this was a cross-industry collaboration,
+
+185
+00:08:19,986 --> 00:08:22,375
+people from Facebook, independent researchers,
+
+186
+00:08:22,375 --> 00:08:24,456
+guys from Sophos.
+
+187
+00:08:24,456 --> 00:08:27,111
+So here we have a couple of documents
+
+188
+00:08:27,111 --> 00:08:29,937
+which our cybercriminals had uploaded
+
+189
+00:08:29,937 --> 00:08:34,314
+to a cloud service, kind of like Dropbox or SkyDrive,
+
+190
+00:08:34,314 --> 00:08:36,523
+like many of you might use.
+
+191
+00:08:36,523 --> 00:08:39,915
+At the top, you'll notice a section of source code.
+
+192
+00:08:39,915 --> 00:08:42,883
+What this would do is send the cybercriminals
+
+193
+00:08:42,883 --> 00:08:47,923
+a text message every day telling them how much money
+
+194
+00:08:47,923 --> 00:08:49,589
+they'd made that day,
+
+195
+00:08:49,589 --> 00:08:52,885
+so a kind of cybercriminal billings report, if you will.
+
+196
+00:08:52,885 --> 00:08:55,642
+If you look closely, you'll notice a series
+
+197
+00:08:55,642 --> 00:08:58,625
+of what are Russian telephone numbers.
+
+198
+00:08:58,625 --> 00:09:00,104
+Now that's obviously interesting,
+
+199
+00:09:00,104 --> 00:09:03,341
+because that gives us a way of finding our cybercriminals.
+
+200
+00:09:03,341 --> 00:09:05,456
+Down below, highlighted in red,
+
+201
+00:09:05,456 --> 00:09:07,207
+in the other section of source code,
+
+202
+00:09:07,207 --> 00:09:09,950
+is this bit "leded:leded."
+
+203
+00:09:09,950 --> 00:09:11,239
+That's a username,
+
+204
+00:09:11,239 --> 00:09:14,098
+kind of like you might have on Twitter.
+
+205
+00:09:14,098 --> 00:09:15,329
+So let's take this a little further.
+
+206
+00:09:15,329 --> 00:09:17,587
+There are a few other interesting pieces
+
+207
+00:09:17,587 --> 00:09:19,862
+the cybercriminals had uploaded.
+
+208
+00:09:19,862 --> 00:09:22,434
+Lots of you here will use smartphones
+
+209
+00:09:22,434 --> 00:09:25,081
+to take photos and post them from the conference.
+
+210
+00:09:25,081 --> 00:09:27,918
+An interesting feature of lots of modern smartphones
+
+211
+00:09:27,918 --> 00:09:29,585
+is that when you take a photo,
+
+212
+00:09:29,585 --> 00:09:33,822
+it embeds GPS data about where that photo was taken.
+
+213
+00:09:33,822 --> 00:09:36,265
+In fact, I've been spending a lot of time
+
+214
+00:09:36,265 --> 00:09:38,509
+on Internet dating sites recently,
+
+215
+00:09:38,509 --> 00:09:40,920
+obviously for research purposes,
+
+216
+00:09:40,920 --> 00:09:44,441
+and I've noticed that about 60 percent
+
+217
+00:09:44,441 --> 00:09:47,264
+of the profile pictures on Internet dating sites
+
+218
+00:09:47,264 --> 00:09:51,715
+contain the GPS coordinates of where the photo was taken,
+
+219
+00:09:51,715 --> 00:09:52,776
+which is kind of scary
+
+220
+00:09:52,776 --> 00:09:55,338
+because you wouldn't give out your home address
+
+221
+00:09:55,338 --> 00:09:56,787
+to lots of strangers,
+
+222
+00:09:56,787 --> 00:09:58,781
+but we're happy to give away our GPS coordinates
+
+223
+00:09:58,781 --> 00:10:02,810
+to plus or minus 15 meters.
+
+224
+00:10:02,810 --> 00:10:06,044
+And our cybercriminals had done the same thing.
+
+225
+00:10:06,044 --> 00:10:09,248
+So here's a photo which resolves to St. Petersburg.
+
+226
+00:10:09,248 --> 00:10:12,934
+We then deploy the incredibly advanced hacking tool.
+
+227
+00:10:12,934 --> 00:10:15,329
+We used Google.
+
+228
+00:10:15,329 --> 00:10:17,554
+Using the email address, the telephone number
+
+229
+00:10:17,554 --> 00:10:21,103
+and the GPS data, on the left you see an advert
+
+230
+00:10:21,103 --> 00:10:24,772
+for a BMW that one of our cybercriminals is selling,
+
+231
+00:10:24,772 --> 00:10:30,120
+on the other side an advert for the sale of sphynx kittens.
+
+232
+00:10:30,120 --> 00:10:33,220
+One of these was more stereotypical for me.
+
+233
+00:10:33,220 --> 00:10:37,209
+A little more searching, and here's our cybercriminal.
+
+234
+00:10:37,209 --> 00:10:40,755
+Imagine, these are hardened cybercriminals
+
+235
+00:10:40,755 --> 00:10:42,623
+sharing information scarcely.
+
+236
+00:10:42,623 --> 00:10:43,771
+Imagine what you could find
+
+237
+00:10:43,771 --> 00:10:45,474
+about each of the people in this room.
+
+238
+00:10:45,474 --> 00:10:47,280
+A bit more searching through the profile
+
+239
+00:10:47,280 --> 00:10:49,140
+and there's a photo of their office.
+
+240
+00:10:49,140 --> 00:10:51,188
+They were working on the third floor.
+
+241
+00:10:51,188 --> 00:10:53,387
+And you can also see some photos
+
+242
+00:10:53,387 --> 00:10:54,562
+from his business companion
+
+243
+00:10:54,562 --> 00:10:59,401
+where he has a taste in a certain kind of image.
+
+244
+00:10:59,401 --> 00:11:03,396
+It turns out he's a member of the Russian Adult Webmasters Federation.
+
+245
+00:11:03,396 --> 00:11:06,413
+But this is where our investigation starts to slow down.
+
+246
+00:11:06,413 --> 00:11:10,356
+The cybercriminals have locked down their profiles quite well.
+
+247
+00:11:10,356 --> 00:11:12,391
+And herein is the greatest lesson
+
+248
+00:11:12,391 --> 00:11:16,969
+of social media and mobile devices for all of us right now.
+
+249
+00:11:16,969 --> 00:11:20,699
+Our friends, our families and our colleagues
+
+250
+00:11:20,699 --> 00:11:25,388
+can break our security even when we do the right things.
+
+251
+00:11:25,388 --> 00:11:28,168
+This is MobSoft, one of the companies
+
+252
+00:11:28,168 --> 00:11:30,334
+that this cybercriminal gang owned,
+
+253
+00:11:30,334 --> 00:11:31,923
+and an interesting thing about MobSoft
+
+254
+00:11:31,923 --> 00:11:34,794
+is the 50-percent owner of this
+
+255
+00:11:34,794 --> 00:11:36,741
+posted a job advert,
+
+256
+00:11:36,741 --> 00:11:40,121
+and this job advert matched one of the telephone numbers
+
+257
+00:11:40,121 --> 00:11:42,273
+from the code earlier.
+
+258
+00:11:42,273 --> 00:11:44,398
+This woman was Maria,
+
+259
+00:11:44,398 --> 00:11:47,278
+and Maria is the wife of one of our cybercriminals.
+
+260
+00:11:47,278 --> 00:11:50,798
+And it's kind of like she went into her social media settings
+
+261
+00:11:50,798 --> 00:11:53,593
+and clicked on every option imaginable
+
+262
+00:11:53,593 --> 00:11:57,290
+to make herself really, really insecure.
+
+263
+00:11:57,290 --> 00:11:58,857
+By the end of the investigation,
+
+264
+00:11:58,857 --> 00:12:02,416
+where you can read the full 27-page report at that link,
+
+265
+00:12:02,416 --> 00:12:04,450
+we had photos of the cybercriminals,
+
+266
+00:12:04,450 --> 00:12:07,345
+even the office Christmas party
+
+267
+00:12:07,345 --> 00:12:09,211
+when they were out on an outing.
+
+268
+00:12:09,211 --> 00:12:12,460
+That's right, cybercriminals do have Christmas parties,
+
+269
+00:12:12,460 --> 00:12:14,048
+as it turns out.
+
+270
+00:12:14,048 --> 00:12:16,283
+Now you're probably wondering what happened to these guys.
+
+271
+00:12:16,283 --> 00:12:19,220
+Let me come back to that in just a minute.
+
+272
+00:12:19,220 --> 00:12:21,967
+I want to change pace to one last little demonstration,
+
+273
+00:12:21,967 --> 00:12:25,936
+a technique that is wonderfully simple and basic,
+
+274
+00:12:25,936 --> 00:12:29,001
+but is interesting in exposing how much information
+
+275
+00:12:29,001 --> 00:12:30,777
+we're all giving away,
+
+276
+00:12:30,777 --> 00:12:35,055
+and it's relevant because it applies to us as a TED audience.
+
+277
+00:12:35,055 --> 00:12:37,505
+This is normally when people start kind of shuffling in their pockets
+
+278
+00:12:37,505 --> 00:12:41,723
+trying to turn their phones onto airplane mode desperately.
+
+279
+00:12:41,723 --> 00:12:43,409
+Many of you all know about the concept
+
+280
+00:12:43,409 --> 00:12:45,752
+of scanning for wireless networks.
+
+281
+00:12:45,752 --> 00:12:49,153
+You do it every time you take out your iPhone or your Blackberry
+
+282
+00:12:49,153 --> 00:12:53,173
+and connect to something like TEDAttendees.
+
+283
+00:12:53,173 --> 00:12:54,920
+But what you might not know
+
+284
+00:12:54,920 --> 00:12:59,671
+is that you're also beaming out a list of networks
+
+285
+00:12:59,671 --> 00:13:02,093
+you've previously connected to,
+
+286
+00:13:02,093 --> 00:13:06,240
+even when you're not using wireless actively.
+
+287
+00:13:06,240 --> 00:13:07,967
+So I ran a little scan.
+
+288
+00:13:07,967 --> 00:13:10,893
+I was relatively inhibited compared to the cybercriminals,
+
+289
+00:13:10,893 --> 00:13:13,437
+who wouldn't be so concerned by law,
+
+290
+00:13:13,437 --> 00:13:16,024
+and here you can see my mobile device.
+
+291
+00:13:16,024 --> 00:13:18,678
+Okay? So you can see a list of wireless networks.
+
+292
+00:13:18,678 --> 00:13:23,305
+TEDAttendees, HyattLB. Where do you think I'm staying?
+
+293
+00:13:23,305 --> 00:13:26,798
+My home network, PrettyFlyForAWifi,
+
+294
+00:13:26,798 --> 00:13:28,563
+which I think is a great name.
+
+295
+00:13:28,563 --> 00:13:31,330
+Sophos_Visitors, SANSEMEA, companies I work with.
+
+296
+00:13:31,330 --> 00:13:34,638
+Loganwifi, that's in Boston. HiltonLondon.
+
+297
+00:13:34,638 --> 00:13:37,079
+CIASurveillanceVan.
+
+298
+00:13:37,079 --> 00:13:38,688
+We called it that at one of our conferences
+
+299
+00:13:38,688 --> 00:13:40,424
+because we thought that would freak people out,
+
+300
+00:13:40,424 --> 00:13:42,418
+which is quite fun.
+
+301
+00:13:42,418 --> 00:13:47,076
+This is how geeks party.
+
+302
+00:13:47,076 --> 00:13:49,283
+So let's make this a little bit more interesting.
+
+303
+00:13:49,283 --> 00:13:51,821
+Let's talk about you.
+
+304
+00:13:51,821 --> 00:13:53,931
+Twenty-three percent of you have been to Starbucks
+
+305
+00:13:53,931 --> 00:13:57,046
+recently and used the wireless network.
+
+306
+00:13:57,046 --> 00:13:58,210
+Things get more interesting.
+
+307
+00:13:58,210 --> 00:14:00,656
+Forty-six percent of you I could link to a business,
+
+308
+00:14:00,656 --> 00:14:03,526
+XYZ Employee network.
+
+309
+00:14:03,526 --> 00:14:07,705
+This isn't an exact science, but it gets pretty accurate.
+
+310
+00:14:07,705 --> 00:14:12,174
+Seven hundred and sixty-one of you I could identify a hotel you'd been to recently,
+
+311
+00:14:12,174 --> 00:14:16,013
+absolutely with pinpoint precision somewhere on the globe.
+
+312
+00:14:16,013 --> 00:14:19,961
+Two hundred and thirty-four of you, well, I know where you live.
+
+313
+00:14:19,961 --> 00:14:22,280
+Your wireless network name is so unique
+
+314
+00:14:22,280 --> 00:14:23,829
+that I was able to pinpoint it
+
+315
+00:14:23,829 --> 00:14:26,496
+using data available openly on the Internet
+
+316
+00:14:26,496 --> 00:14:30,744
+with no hacking or clever, clever tricks.
+
+317
+00:14:30,744 --> 00:14:32,564
+And I should mention as well that
+
+318
+00:14:32,564 --> 00:14:34,106
+some of you do use your names,
+
+319
+00:14:34,106 --> 00:14:36,702
+"James Lyne's iPhone," for example.
+
+320
+00:14:36,702 --> 00:14:41,060
+And two percent of you have a tendency to extreme profanity.
+
+321
+00:14:41,060 --> 00:14:43,064
+So something for you to think about:
+
+322
+00:14:43,064 --> 00:14:46,977
+As we adopt these new applications and mobile devices,
+
+323
+00:14:46,977 --> 00:14:49,294
+as we play with these shiny new toys,
+
+324
+00:14:49,294 --> 00:14:53,116
+how much are we trading off convenience
+
+325
+00:14:53,116 --> 00:14:56,006
+for privacy and security?
+
+326
+00:14:56,006 --> 00:14:58,064
+Next time you install something,
+
+327
+00:14:58,064 --> 00:15:00,368
+look at the settings and ask yourself,
+
+328
+00:15:00,368 --> 00:15:03,920
+"Is this information that I want to share?
+
+329
+00:15:03,920 --> 00:15:06,810
+Would someone be able to abuse it?"
+
+330
+00:15:06,810 --> 00:15:08,882
+We also need to think very carefully
+
+331
+00:15:08,882 --> 00:15:13,023
+about how we develop our future talent pool.
+
+332
+00:15:13,023 --> 00:15:16,002
+You see, technology's changing at a staggering rate,
+
+333
+00:15:16,002 --> 00:15:19,178
+and that 250,000 pieces of malware
+
+334
+00:15:19,178 --> 00:15:22,050
+won't stay the same for long.
+
+335
+00:15:22,050 --> 00:15:24,248
+There's a very concerning trend
+
+336
+00:15:24,248 --> 00:15:27,441
+that whilst many people coming out of schools now
+
+337
+00:15:27,441 --> 00:15:31,853
+are much more technology-savvy, they know how to use technology,
+
+338
+00:15:31,853 --> 00:15:35,466
+fewer and fewer people are following the feeder subjects
+
+339
+00:15:35,466 --> 00:15:39,790
+to know how that technology works under the covers.
+
+340
+00:15:39,790 --> 00:15:44,175
+In the U.K., a 60 percent reduction since 2003,
+
+341
+00:15:44,175 --> 00:15:47,950
+and there are similar statistics all over the world.
+
+342
+00:15:47,950 --> 00:15:52,026
+We also need to think about the legal issues in this area.
+
+343
+00:15:52,026 --> 00:15:53,553
+The cybercriminals I talked about,
+
+344
+00:15:53,553 --> 00:15:55,692
+despite theft of millions of dollars,
+
+345
+00:15:55,692 --> 00:15:57,801
+actually still haven't been arrested,
+
+346
+00:15:57,801 --> 00:16:01,360
+and at this point possibly never will.
+
+347
+00:16:01,360 --> 00:16:04,860
+Most laws are national in their implementation,
+
+348
+00:16:04,860 --> 00:16:08,859
+despite cybercrime conventions, where the Internet
+
+349
+00:16:08,859 --> 00:16:11,965
+is borderless and international by definition.
+
+350
+00:16:11,965 --> 00:16:14,798
+Countries do not agree, which makes this area
+
+351
+00:16:14,798 --> 00:16:18,415
+exceptionally challenging from a legal perspective.
+
+352
+00:16:18,415 --> 00:16:22,775
+But my biggest ask is this:
+
+353
+00:16:22,775 --> 00:16:24,417
+You see, you're going to leave here
+
+354
+00:16:24,417 --> 00:16:28,134
+and you're going to see some astonishing stories in the news.
+
+355
+00:16:28,134 --> 00:16:30,308
+You're going to read about malware doing incredible
+
+356
+00:16:30,308 --> 00:16:33,569
+and terrifying, scary things.
+
+357
+00:16:33,569 --> 00:16:37,498
+However, 99 percent of it works
+
+358
+00:16:37,498 --> 00:16:41,688
+because people fail to do the basics.
+
+359
+00:16:41,688 --> 00:16:44,710
+So my ask is this: Go online,
+
+360
+00:16:44,710 --> 00:16:47,355
+find these simple best practices,
+
+361
+00:16:47,355 --> 00:16:49,909
+find out how to update and patch your computer.
+
+362
+00:16:49,909 --> 00:16:51,460
+Get a secure password.
+
+363
+00:16:51,460 --> 00:16:52,990
+Make sure you use a different password
+
+364
+00:16:52,990 --> 00:16:56,341
+on each of your sites and services online.
+
+365
+00:16:56,341 --> 00:16:59,584
+Find these resources. Apply them.
+
+366
+00:16:59,584 --> 00:17:02,195
+The Internet is a fantastic resource
+
+367
+00:17:02,195 --> 00:17:04,260
+for business, for political expression,
+
+368
+00:17:04,260 --> 00:17:06,591
+for art and for learning.
+
+369
+00:17:06,591 --> 00:17:09,773
+Help me and the security community
+
+370
+00:17:09,773 --> 00:17:13,241
+make life much, much more difficult
+
+371
+00:17:13,241 --> 00:17:15,193
+for cybercriminals.
+
+372
+00:17:15,193 --> 00:17:16,521
+Thank you.
+
+373
+00:17:16,521 --> 00:17:21,060
+(Applause)
+
