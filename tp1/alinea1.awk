@@ -4,7 +4,7 @@ BEGIN{endStampStamp=0; startStamp=0; lastSecond=0; thisSecond=0; id=1; FS="\n"; 
   #Separar os timestamps do record
   split($2, a, " --> ");
 
-  #Guardar o timestamp de ela aparecer e desaparecer
+  #Guardar o timestamp de ela aparecer
   startStamp=a[1];
 
   #obter os segundos de aparecer
