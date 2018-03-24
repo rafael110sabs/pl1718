@@ -1,9 +1,3 @@
-
-function f(t){
-  t*scale-shift
-  return t;
-}
-
 BEGIN{ if(ARGC==7){ ARGC=8; ARGV[7]=ARGV[6]}
       else { print "usage: alinha i1=3 i2=6 f1=30 f2=60 a.srt b.srt\n"; }
       FS="\n"; RS="\n\n"
@@ -25,7 +19,7 @@ BEGIN{ if(ARGC==7){ ARGC=8; ARGV[7]=ARGV[6]}
       #obter os segundos de aparecer
       split(startStamp, z, ":");
       split(z[3], sa, ",");
-      i1_time = (z[1]*3600 + z[2] * 60 + sa[1] + sa[2]*0.001) * 1000;
+      i1_time = (z[1]*3600 + z[2] * 60 + sa[1]) * 1000 + sa[2];
 
     } else if( $1 == f1){
       #Separar os timestamps do record
@@ -37,7 +31,7 @@ BEGIN{ if(ARGC==7){ ARGC=8; ARGV[7]=ARGV[6]}
       #obter os segundos de aparecer
       split(startStamp, z, ":");
       split(z[3], sa, ",");
-      f1_time = (z[1]*3600 + z[2] * 60 + sa[1] + sa[2]*0.001) * 1000;
+      f1_time = (z[1]*3600 + z[2] * 60 + sa[1]) * 1000 + sa[2];
       dur1 = f1_time - i1_time;
     }
   }
@@ -53,7 +47,7 @@ BEGIN{ if(ARGC==7){ ARGC=8; ARGV[7]=ARGV[6]}
       #obter os segundos de aparecer
       split(startStamp, z, ":");
       split(z[3], sa, ",");
-      i2_time = (z[1]*3600 + z[2] * 60 + sa[1] + sa[2]*0.001) * 1000;
+      i2_time = (z[1]*3600 + z[2] * 60 + sa[1]) * 1000 + sa[2];
 
     } else if( $1 == f2){
       #Separar os timestamps do record
@@ -65,7 +59,7 @@ BEGIN{ if(ARGC==7){ ARGC=8; ARGV[7]=ARGV[6]}
       #obter os segundos de aparecer
       split(startStamp, z, ":");
       split(z[3], sa, ",");
-      f2_time = (z[1]*3600 + z[2] * 60 + sa[1] + sa[2]*0.001) * 1000;
+      f2_time = (z[1]*3600 + z[2] * 60 + sa[1]) * 1000 + sa[2];
       dur2 = f2_time - i2_time;
     }
   }
