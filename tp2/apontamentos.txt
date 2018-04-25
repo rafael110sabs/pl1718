@@ -1,0 +1,14 @@
+(negrito, italico, sublinhado, varios niveis de tıtulos) e listas de topicos (items) nao-numerados, numerados ou tipo entradas de um dicionario.
+
+Negrito -> \-Lorem Ipsum is simply dummy text...-\
+italico -> \~Lorem Ipsum is simply dummy text...~\
+sublinhado -> \_Lorem Ipsum is simply dummy text..._\
+h1 -> \1-Lorem Ipsum is simply dummy text... -1\
+h2 -> \2-Lorem Ipsum is simply dummy text... -2\
+h4 -> \3-Lorem Ipsum is simply dummy text... -3\
+h5 -> \4-Lorem Ipsum is simply dummy text...-4\
+h6 -> \5-Lorem Ipsum is simply dummy text... -5\
+listas ->
+  ordenadas -> \:Lorem Ipsum is simply dummy text...:\
+  nao ordenadas -> \;Lorem Ipsum is simply dummy text...;\
+  dicionarios -> \.Lorem Ipsum is simply dummy text....\
