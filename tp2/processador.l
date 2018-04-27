@@ -46,74 +46,73 @@ char title[256];
                                         BEGIN INITIAL;}
 }
 
-<INITIAL,PAR,ULIST,OLIST>"\\-"        {fprintf(yyout,"<b>");}
-<INITIAL,PAR,ULIST,OLIST>"-\\"        {fprintf(yyout,"</b>");}
+<INITIAL,PAR,ULIST,OLIST,HEADER>"\\-"        {fprintf(yyout,"<b>");}
+<INITIAL,PAR,ULIST,OLIST,HEADER>"-\\"        {fprintf(yyout,"</b>");}
 
-<INITIAL,PAR,ULIST,OLIST>"\\~"        {fprintf(yyout,"<i>");}
-<INITIAL,PAR,ULIST,OLIST>"~\\"        {fprintf(yyout,"</i>");}
+<INITIAL,PAR,ULIST,OLIST,HEADER>"\\~"        {fprintf(yyout,"<i>");}
+<INITIAL,PAR,ULIST,OLIST,HEADER>"~\\"        {fprintf(yyout,"</i>");}
 
-<INITIAL,PAR,ULIST,OLIST>"\\_"        {fprintf(yyout,"<u>");}
-<INITIAL,PAR,ULIST,OLIST>"_\\"        {fprintf(yyout,"</u>");}
+<INITIAL,PAR,ULIST,OLIST,HEADER>"\\_"        {fprintf(yyout,"<u>");}
+<INITIAL,PAR,ULIST,OLIST,HEADER>"_\\"        {fprintf(yyout,"</u>");}
 
-#\                                    {fprintf(yyout,"<ol>\n\t<li>");ol_count++; BEGIN OLIST;}
-\*\                                    {fprintf(yyout,"<ul>\n\t<li>");BEGIN ULIST; ul_count++;}
+#\                                      {fprintf(yyout,"<ol>\n\t<li>");ol_count++; BEGIN OLIST;}
+\*\                                     {fprintf(yyout,"<ul>\n\t<li>");BEGIN ULIST; ul_count++;}
 
 <OLIST>{
-  #\                                  {if(ol_count == 2)
-                                          fprintf(yyout,"</ol>\n\t<li>\n");
-                                        else
-                                          fprintf(yyout, "\t<li>");
-                                      }
-  ##\                                 {if(ol_count == 1){
-                                          fprintf(yyout,"\t<ol type=\"a\">\n\t\t<li>");
-                                          ol_count++;
-                                       }else if(ol_count == 3){
-                                          fprintf(yyout, "\t\t</ol>\n\t\t<li>");
-                                          ol_count--;
-                                       }else
-                                          fprintf(yyout, "\t\t<li1>");
-                                      }
-  ###\                                {if(ol_count == 2){
-                                          fprintf(yyout,"\t\t<ol type=\"i\">\n\t\t\t<li>");
-                                          ol_count++;
-                                        }else
-                                          fprintf(yyout, "\t\t\t<li>");
-                                      }
-  \n                               {fprintf(yyout, "</li>\n");}
-  \n\n                             {fprintf(yyout,"</li>\n");
-                                    for(int i = 0; i < ol_count; i++)
-                                      fprintf(yyout,"</ol>\n");
-                                    ol_count--; BEGIN INITIAL;}
-}
-
+  #\                                      { if(ol_count == 2)
+                                              fprintf(yyout,"</ol>\n\t<li>\n");
+                                            else
+                                              fprintf(yyout, "\t<li>");
+                                          }
+  ##\                                     { if(ol_count == 1){
+                                              fprintf(yyout,"\t<ol type=\"a\">\n\t\t<li>");
+                                              ol_count++;
+                                            }else if(ol_count == 3){
+                                              fprintf(yyout, "\t\t</ol>\n\t\t<li>");
+                                              ol_count--;
+                                            }else
+                                              fprintf(yyout, "\t\t<li1>");
+                                          }
+  ###\                                    { if(ol_count == 2){
+                                              fprintf(yyout,"\t\t<ol type=\"i\">\n\t\t\t<li>");
+                                              ol_count++;
+                                            }else
+                                              fprintf(yyout, "\t\t\t<li>");
+                                          }
+  \n                                      { fprintf(yyout, "</li>\n");}
+  \n\n                                    { fprintf(yyout,"</li>\n");
+                                              for(int i = 0; i < ol_count; i++)
+                                            fprintf(yyout,"</ol>\n");
+                                            ol_count--; BEGIN INITIAL;}
+                                          }
 <ULIST>{
-  \*\                                { if(ul_count == 2){
-                                          fprintf(yyout, "\t</ul>\n\t<li>");
-                                          ul_count--;
-                                       }else
-                                          fprintf(yyout, "\t<li>");
-                                    }
-  \*\*\                               { if(ul_count == 1){
-                                        fprintf(yyout, "\t<ul>\n\t\t<li>");
-                                        ul_count++;
-                                      }else if(ul_count == 3){
-                                        fprintf(yyout, "\t\t</ul>\n\t\t<li>");
-                                        ul_count--;
-                                      }else
-                                        fprintf(yyout, "\t\t<li>");
-                                      }
-  \*\*\*\                               { if(ul_count == 2){
-                                            fprintf(yyout, "\t\t<ul>\n\t\t\t<li>");
-                                            ul_count++;
+  \*\                                     { if(ul_count == 2){
+                                              fprintf(yyout, "\t</ul>\n\t<li>");
+                                              ul_count--;
+                                            }else
+                                              fprintf(yyout, "\t<li>");
+                                          }
+  \*\*\                                   { if(ul_count == 1){
+                                              fprintf(yyout, "\t<ul>\n\t\t<li>");
+                                              ul_count++;
+                                          }else if(ul_count == 3){
+                                            fprintf(yyout, "\t\t</ul>\n\t\t<li>");
+                                            ul_count--;
                                           }else
-                                            fprintf(yyout, "\t\t\t<li>");
-                                        }
-  \n                                    { fprintf(yyout, "</li>\n");}
-  \n\n                              { fprintf(yyout, "</li>\n");
-                                      for(int i = 0; i < ul_count; i++)
-                                        fprintf(yyout, "</ul>\n");
-                                      ul_count=0; BEGIN INITIAL;
-                                    }
+                                            fprintf(yyout, "\t\t<li>");
+                                          }
+  \*\*\*\                                 { if(ul_count == 2){
+                                              fprintf(yyout, "\t\t<ul>\n\t\t\t<li>");
+                                              ul_count++;
+                                            }else
+                                              fprintf(yyout, "\t\t\t<li>");
+                                          }
+  \n                                      { fprintf(yyout, "</li>\n");}
+  \n\n                                    { fprintf(yyout, "</li>\n");
+                                              for(int i = 0; i < ul_count; i++)
+                                              fprintf(yyout, "</ul>\n");
+                                            ul_count=0; BEGIN INITIAL;
+                                          }
 }
 
 %%

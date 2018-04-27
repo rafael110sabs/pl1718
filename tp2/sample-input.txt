@@ -1,5 +1,5 @@
 \start the fire
-\1-Welcome to This beautiful \~webpage~\!
+\1-Welcome to This beautiful \_webpage_\!
 \+This webpage was genereted using a \-lex-\ processor.
 \+It serves as a test to the Wiki markup language defined by me.
 \+To create the header use ``\TITLE_NAME''.

@@ -7,4 +7,4 @@ clean:
 	rm lex.yy.c
 
 remove:
-	rm lex.yy.c processador
+	rm processador
