@@ -12,12 +12,13 @@
 void printHeader(char*);
 int trimNumber(char*);
 
+int open_header = 0;
 int ol_count = 0;
 int ident_count = 0;
 char title[256];
 %}
 
-%x QUOTE PAR
+%x QUOTE PAR HEADER
 %s OLIST ULIST
 %%
 
@@ -33,8 +34,16 @@ char title[256];
 
 \\\+                                  {fprintf(yyout, "<p>");BEGIN PAR;}
 <PAR>{
-  .                                   ECHO;
   \n                                  {fprintf(yyout, "</p>\n"); BEGIN INITIAL;}
+}
+
+\\[0-9]-                              { open_header = yytext[1] - '0';
+                                        fprintf(yyout,"<h%d>", open_header);
+                                        BEGIN HEADER;}
+<HEADER>{
+  \n                                  { fprintf(yyout, "</h%d>", open_header);
+                                        open_header=0;
+                                        BEGIN INITIAL;}
 }
 
 <INITIAL,PAR,ULIST,OLIST>"\\-"        {fprintf(yyout,"<b>");}
@@ -46,8 +55,6 @@ char title[256];
 <INITIAL,PAR,ULIST,OLIST>"\\_"        {fprintf(yyout,"<u>");}
 <INITIAL,PAR,ULIST,OLIST>"_\\"        {fprintf(yyout,"</u>");}
 
-\\[0-9]-                              {fprintf(yyout,"<h%d>", yytext[1] - '0');}
--[0-9]\\                              {fprintf(yyout,"</h%d>", yytext[1] - '0');}
 
 
 \\:\n?                                {if(ol_count == 0){ fprintf(yyout,"<ol>\n");BEGIN OLIST;}

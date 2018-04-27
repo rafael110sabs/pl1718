@@ -1,7 +1,7 @@
 \start the fire
-    \1-Welcome to This beautiful webpage!-1\
+    \1-Welcome to This beautiful \~webpage~\!
     \+This webpage was genereted using a \-lex-\ processor.
-    \+Here I will be testing the Wiki markup language defined by me.
+    \+It serves as a test to the Wiki markup language defined by me.
     \+To create the header use ``\TITLE_NAME''.
     \+It can have:
     \:
@@ -15,7 +15,7 @@
     ->an item
     ->other item
     ;\
-    \2-Want to see something cool?-2\
+    \2-Want to see something cool?
     \:
       ->What about a list...
       \:
@@ -26,5 +26,5 @@
       :\
     :\
 
-    \3-You can also add images-3\
+    \3-You can also add images
     \"https://vignette.wikia.nocookie.net/pixar/images/e/e1/TowMaterCars3Artwork.jpg/revision/latest/scale-to-width-down/310?cb=20170430135416"
