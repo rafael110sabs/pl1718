@@ -1,16 +1,16 @@
-\start the fire
-\1-Welcome to This beautiful \_webpage_\!
-\+This webpage was genereted using a \-lex-\ processor.
-\+It serves as a test to the Wiki markup language defined by me.
-\+To create the header use ``\TITLE_NAME''.
-\+It can have:
+... start the fire
+\1- Welcome to This beautiful \_webpage_\!
+\+ This webpage was genereted using a \-lex-\ processor.
+\+ It serves as a test to the Wiki markup language defined by me.
+\+ To create the header use ``\TITLE_NAME''.
+\+ It can have:
 
 # \-bold text-\
 # \~italic text~\
 # \_underlined text_\
 # \-\~\_All combined_\~\-\
 
-\+And you can also do:
+\+ And you can also do:
 
 * an item
 * other item
@@ -18,12 +18,18 @@
 *** What if
 ** Naa
 
-\2-Want to see something cool?
+\2- Want to see something cool?
 # What about a list...
 ## ...inside another list?
 ### ..inside another list?
 ## back one again
-### SCRU SCRU
+### SCRRR SCRRR
 
-\3-You can also add images
+\3- You can also add images
 \"https://vignette.wikia.nocookie.net/pixar/images/e/e1/TowMaterCars3Artwork.jpg/revision/latest/scale-to-width-down/310?cb=20170430135416"
+
+\4- And Data Dictionaries...
+; Mercedes: Class A
+: Class C
+: Class E
+: Class S
