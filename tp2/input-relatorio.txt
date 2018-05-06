@@ -1,10 +1,54 @@
 ... Porsche 911 GT3.
 \1- Porsche 911 GT3 - Automotive Perfection.
 \2- Story
+\+ The \-Porsche 911 GT3-\ is a high performance version of the Porsche 911 sports car \_primarily intended for racing_\. It is a line of high-performance models, which began with the 1973 911 Carrera RS. The GT3, introduced in 1999, is named after the \~Fédération Internationale de l'Automobile~\ (FIA) Group GT3 class, in which it was ``designed to compete''.
 
-# item 1, nivel 1
-# item 2, nivel 1
-# item 3, nivel 1
-## item 4, nivel 2
-### item 5, nivel 3
-# item 6, nivel 1
+; Porsche GT3 Overview
+: Made by Porsche
+: Production from 1999 to present
+: Assembly at Stuttgart-Zuffenhausen in Germany
+: Sports car
+: 2-door coupe
+: RR layout
+: 3.6 4.0 L Flat-6 Engine
+: 6-speed manual or 7-speed dual-clutch Transmission
+
+\2- The Porsche GT3 road cars:
+
+# 996 GT3
+## 996.1 GT3
+## 996.2 GT3
+## 996 GT3 RS
+# 997 GT3
+## 997.1 GT3
+## 997.2 GT3
+## 997 GT3 RS
+### 997 GT3 RS 4.0
+# 991 GT3
+## 991.1 GT3 RS
+## 991.2 GT3
+### 991.2 GT3 RS
+
+\2- The Porsche GT3 racing cars:
+
+* 1998 996 GT3 Cup
+** 1999 996 GT3 R
+** 2000 996 GT3 Cup[42]
+*** 2001 996 GT3 RS
+* 2004 996 GT3 RSR – with sequential gear box[43]
+** 2005 997 GT3 Cup[44]
+*** 2006 997 GT3 RSR[45]
+* 2008 997 GT3 Cup S[46]
+** 2010 997 GT3 Cup[47]
+*** 2010 997 GT3 R[48] – homologation includes 2013 bodywork update[49]
+* 2011 997 GT3 Cup
+** 2012 997 GT3 RSR[50]
+*** 2013 991 GT3 Cup[51]
+* 2013 991 RSR
+** 2014 991 GT America
+*** 2016 991 GT3 R
+* 2017 991 RSR[52]
+** 2017 991 GT3 Cup[53]
+
+\3- The 2019 Porsche GT3 RS
+\"https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/images/18q1/699329/2019-porsche-911-gt3-rs-debuts-looks-bad-ass-because-it-is-news-car-and-driver-photo-702863-s-original.jpg?crop=1xw:1xh;center,center&resize=900:*"

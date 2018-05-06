@@ -70,9 +70,10 @@ TEXT      [a-zA-Z0-9 #@?\~_.-]
                                           BEGIN OLIST;
                                       }
 <OLIST>{
-  #\                                  { if(ol_count == 2)
+  #\                                  { if(ol_count == 2){
                                           fprintf(yyout,"</ol>\n\t<li>");
-                                        else if(ol_count == 3){
+                                          ol_count--;
+                                        }else if(ol_count == 3){
                                           fprintf(yyout, "\t\t</ol>\n\t</ol>\n\t<li>");
                                           ol_count -= 2;
                                         }else
