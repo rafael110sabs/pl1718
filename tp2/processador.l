@@ -10,12 +10,12 @@
 #include <string.h>
 
 void printHeader(char*);
-int trimNumber(char*);
 
 int open_header = 0;
 int ol_count = 0;
 int ul_count = 0;
 char title[256];
+int title_done = 0;
 %}
 
 TEXT      [a-zA-Z0-9 #@?\~_.-]
@@ -23,8 +23,14 @@ TEXT      [a-zA-Z0-9 #@?\~_.-]
 %x QUOTE PAR HEADER OLIST ULIST DICT
 %%
 
-<INITIAL>"..."\ {TEXT}*?              {strcpy(title, yytext); printHeader(title);}
-<INITIAL>\\\"[^\"]*\"                 {fprintf(yyout, "<img src=%s>\n", yytext+1);}
+^"..."\ {TEXT}*?                      { if(title_done == 0){
+                                          strcpy(title, yytext);
+                                          printHeader(title);
+                                          title_done = 1;
+                                        } else
+                                            ECHO;
+                                      }
+\\\"[^\"]*\"                          {fprintf(yyout, "<img src=%s>\n", yytext+1);}
 .                                     ECHO;
 \n                                    /*Discarda os new lines*/
 
@@ -66,7 +72,10 @@ TEXT      [a-zA-Z0-9 #@?\~_.-]
 <OLIST>{
   #\                                  { if(ol_count == 2)
                                           fprintf(yyout,"</ol>\n\t<li>");
-                                        else
+                                        else if(ol_count == 3){
+                                          fprintf(yyout, "\t\t</ol>\n\t</ol>\n\t<li>");
+                                          ol_count -= 2;
+                                        }else
                                           fprintf(yyout, "\t<li>");
                                       }
   ##\                                 { if(ol_count == 1){
@@ -100,6 +109,9 @@ TEXT      [a-zA-Z0-9 #@?\~_.-]
   \*\                                 { if(ul_count == 2){
                                           fprintf(yyout, "\t</ul>\n\t<li>");
                                           ul_count--;
+                                        }else if(ul_count == 3){
+                                          fprintf(yyout, "\t\t</ul>\n\t</ul>\n\t<li>");
+                                          ul_count-=2;
                                         }else
                                           fprintf(yyout, "\t<li>");
                                       }
@@ -157,10 +169,6 @@ TEXT      [a-zA-Z0-9 #@?\~_.-]
 
 void printHeader(char* title){
   fprintf(yyout, "<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>%s</title>\n\t</head>\n<body>\n", title+4);
-}
-
-int trimText(char* token){
-
 }
 
 int main( int argc, char** argv){
