@@ -12,12 +12,16 @@
 : RR layout
 : 3.6 4.0 L Flat-6 Engine
 : 6-speed manual or 7-speed dual-clutch Transmission
+; Audi
+: Bonito
+; Peugeot
+: Barato
 
 \2- The Porsche GT3 road cars:
 
-# 996 GT3
-## 996.1 GT3
-## 996.2 GT3
+# \-996 GT3-\
+## \~996.1 GT3~\
+## \-\~\_996.2 GT3_\~\-\
 ## 996 GT3 RS
 # 997 GT3
 ## 997.1 GT3
@@ -28,6 +32,7 @@
 ## 991.1 GT3 RS
 ## 991.2 GT3
 ### 991.2 GT3 RS
+
 
 \2- The Porsche GT3 racing cars:
 
@@ -49,6 +54,7 @@
 *** 2016 991 GT3 R
 * 2017 991 RSR[52]
 ** 2017 991 GT3 Cup[53]
+* 2019 991 GT3 RS
+** \"https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/images/18q1/699329/2019-porsche-911-gt3-rs-debuts-looks-bad-ass-because-it-is-news-car-and-driver-photo-702863-s-original.jpg?crop=1xw:1xh;center,center&resize=900:*"
 
 \3- The 2019 Porsche GT3 RS
-\"https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/images/18q1/699329/2019-porsche-911-gt3-rs-debuts-looks-bad-ass-because-it-is-news-car-and-driver-photo-702863-s-original.jpg?crop=1xw:1xh;center,center&resize=900:*"

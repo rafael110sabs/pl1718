@@ -30,9 +30,9 @@ TEXT      [a-zA-Z0-9 #@?\~_.-]
                                         } else
                                             ECHO;
                                       }
-\\\"[^\"]*\"                          {fprintf(yyout, "<img src=%s>\n", yytext+1);}
 .                                     ECHO;
 \n                                    /*Discarda os new lines*/
+<INITIAL,OLIST,ULIST>\\\"[^\"]*\"                          {fprintf(yyout, "<img src=%s>\n", yytext+1);}
 
 <INITIAL,PAR>"``"                     {fprintf(yyout, "\"");yy_push_state(QUOTE);}
 <QUOTE,PAR>{
@@ -143,6 +143,7 @@ TEXT      [a-zA-Z0-9 #@?\~_.-]
                                         BEGIN DICT;
                                       }
 <DICT>{
+  ;{TEXT}+                            { fprintf(yyout, "<dt><b>%s</b></dt>\n", yytext+2);}
   :{TEXT}+                            {fprintf(yyout, "\t<dd>%s</dd>\n", yytext+2);}
   \n                                  /*Discarda os line breaks*/
   \n\n                                {fprintf(yyout, "</dl>\n"); BEGIN INITIAL;}

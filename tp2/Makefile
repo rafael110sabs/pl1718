@@ -1,4 +1,4 @@
-processador:
+processador: processador.l
 	flex processador.l
 	cc -o processador lex.yy.c
 
