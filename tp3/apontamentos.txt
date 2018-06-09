@@ -1,0 +1,16 @@
+Terá de existir um dicionário que contenha o significa da palavra, a designação em ingles e uma lista de
+sinónimos.
+
+Funcionalidade do STTC (sistema de tratamento de textos cinematograficos)---------
+O sistema terá de ler o dicionário, carregá-lo para uma estrutura interna para processar os textos.
+O processamento dos textos é procurar em cada um as palavras que estejam presentes no dicionário,
+assinalando-as e associando-lhes uma footnote com o termo em inglês.
+Gerar um apendice com a lista das palavras encontradas e respetivos significados.
+
+Coisas a fazer:
+[DONE] Definir a linguagem do dicionário.
+[DONE] Criar o dicionario.
+Definir a estrutura interna onde será armazenado o dicionário.
+Criar os analisadores lexico e sintatico.
+Criar os ficheiros de teste.
+

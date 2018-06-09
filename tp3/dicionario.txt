@@ -1,0 +1,10 @@
+Entrada: Cena
+Significado: Seccao do filme a ser filmada.
+Traducao: Take
+Sinonimos: Cenario, Rodagem;
+
+Entrada: Corta
+Significado: Terminar a filmagem a decorrer.
+Traducao: Cut
+Sinonimos: Terminar;
+
