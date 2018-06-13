@@ -40,13 +40,19 @@ linha	: ENTRADA ':' valor '\n' 			{pal = strdup($3);}
 	| SINONIMOS ':' ';' '\n'			{;}
 	;
 
+lista	: valor						{sino[nr_sin++] = strdup($1); }
+	| lista '|' valor				{sino[nr_sin++] = strdup($3); }
+	;
+
 valor	: PALAVRA					{$$ = strdup($1);}
 	| valor PALAVRA					{fn = malloc(128*sizeof(char)); strcpy(fn,$1); $$ = strcat(fn,$2);}
 	;
 
-lista	: PALAVRA					{sino[nr_sin++] = strdup($1);}
-	| lista ',' PALAVRA				{sino[nr_sin++] = strdup($3);}
+/*
+lista	: PALAVRA					{sino[nr_sin++] = strdup($1); printf("%s\n",$1);}
+	| lista ',' PALAVRA				{sino[nr_sin++] = strdup($3); printf("%s\n",$3);}
 	;
+*/
 %%
 
 int yyerror(char *s){

@@ -29,13 +29,13 @@ void printHeader(){
 [Ss]ignificado			{return SIGNIFICADO;}
 [Tt]raducao			{return TRADUCAO;}
 [Ss]inonimos			{return SINONIMOS;}
-[,;:\n]				{return yytext[0];}
-[a-zA-Z-]+[ .!]?		{yylval.string = yytext; return PALAVRA;}
+[|;:\n]				{return yytext[0];}
+[a-zA-Z()'-]+[ .!,]?		{yylval.string = yytext; return PALAVRA;}
 .				{;}
 }
 <CINE>{
 [a-zA-Z]+			{if((entrada = (Entrada*) get(table, yytext)) != NULL){
-					fprintf(yyout, "<u>%s</u>",yytext);
+					fprintf(yyout, "<u>%s</u><sub>%s</sub>",yytext,entrada->traducao);
 					setFound(entrada);
 				}else{
 					ECHO;
@@ -45,7 +45,9 @@ void printHeader(){
 }
 
 <CINE><<EOF>>			{fprintf(yyout, "\t</body>\n</html>");
-                                 yyterminate();}
+                                 yyterminate();
+                  }
+
+
 
 %%
-

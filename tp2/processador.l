@@ -18,7 +18,7 @@ char title[256];
 int title_done = 0;
 %}
 
-TEXT      [a-zA-Z0-9 #@?\~_.,-]
+TEXT      [a-zA-Z0-9 #@?\~_.,()'-]
 
 %x QUOTE PAR HEADER OLIST ULIST DICT
 %%

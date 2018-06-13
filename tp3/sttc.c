@@ -53,7 +53,7 @@ void printFoundPage(){
 	if((pid = fork()) == 0){
 		execl("processador","proc","site/found.txt","site/found.html",NULL);
 	}
-	fclose(f);	
+	fclose(f);
 }
 
 void printIndexPage(){
@@ -67,11 +67,11 @@ void printIndexPage(){
 	}
 	fprintf(f,"</body></html>");
 	fclose(f);
-	
+
 }
 
 char* removeNewLine(char* s){
-	char* d = (char*) malloc(strlen(s));
+	char* d = (char*) calloc(strlen(s),sizeof(char));
 	int i;
 	for(i = 0; s[i] != '\n'; i++){
 		d[i] = s[i];
@@ -92,13 +92,14 @@ int main(int argc, char** argv){
 		char *d = removeNewLine(buff);
 		files[file_count++] = strdup(d);
 	}
-	
-	fclose(list);	
+
+	fclose(list);
 
 	table = initHash(50);
 
 	yyin = fopen("dicionario.txt","r");
 	int wasParsed =  yyparse();
+	if(wasParsed == 0)
 	if(wasParsed == 0){
 		for(at_file = 1; (at_file-1) < file_count; at_file++){
 			char* ficheiro = (char*) calloc(128, sizeof(char));
@@ -114,11 +115,8 @@ int main(int argc, char** argv){
 			free(ficheiro);
 			free(directory);
 		}
-	}	
+	}
 	printFoundPage();
-	printIndexPage();	
+	printIndexPage();
 	return 0;
 }
-
-
-
