@@ -10,7 +10,15 @@ Gerar um apendice com a lista das palavras encontradas e respetivos significados
 Coisas a fazer:
 [DONE] Definir a linguagem do dicionário.
 [DONE] Criar o dicionario.
-Definir a estrutura interna onde será armazenado o dicionário.
-Criar os analisadores lexico e sintatico.
-Criar os ficheiros de teste.
+[DONE] Definir a estrutura interna onde será armazenado o dicionário.
+[DONE] Criar os analisadores lexico e sintatico para ler o dicionario.
+[    ] Criar os ficheiros de teste.
+[    ] Melhorar o lexer para introduzir caracteres com acentos e assim.
+[    ] Arranjar forma de fazer parsing dos ficheiros.
+[    ] Descobrir para onde imprimir os ficheiros (o mais facil será para html).
+
+
+
+O bolt utilizou um programa diferente que é arrancado pelo parser e que faz parsing dos ficheiros.
+Usou memória partilhada para partilhar a biblioteca.
 

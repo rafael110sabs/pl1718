@@ -11,6 +11,7 @@ Entrada* criaEntrada(const char* pal, const char* sig, const char* trad, int nr_
 	aux->palavra = strdup(pal);
 	aux->significado = strdup(sig);
 	aux->traducao = strdup(trad);
+	aux->found = 0;
 	aux->nr_sinonimos = nr_sin;
 	aux->sinonimos = calloc(nr_sin,sizeof(char*));
 	for(i = 0; i < nr_sin ;i++){
@@ -37,6 +38,10 @@ char** getSinonimos(Entrada ent){
 		res[i] = strdup(ent.sinonimos[i]);
 	}
 	return res;
+}
+void setFound(Entrada* ent){
+	ent->found++;
+
 }
 void printDic(THash t) {
 

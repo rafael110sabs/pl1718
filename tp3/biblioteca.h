@@ -5,6 +5,7 @@ typedef struct ent{
 	char* palavra;
 	char* significado;
 	char* traducao;
+	int found;
 	int nr_sinonimos;
 	char** sinonimos;
 } Entrada;
@@ -16,4 +17,5 @@ char* getSignificado(Entrada ent);
 char* getTraducao(Entrada ent);
 char** getSinonimos(Entrada ent);
 void printDic(THash t);
+void setFound(Entrada* ent);
 #endif

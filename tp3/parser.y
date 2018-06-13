@@ -3,10 +3,10 @@
 #include<stdlib.h>
 #include"hash.h"
 #include"biblioteca.h"
+#include"sttc.h"
 extern int yylex();
-extern FILE *yyin;
 
-THash table;
+
 char* pal;
 char* sig;
 char* trad;
@@ -37,6 +37,7 @@ linha	: ENTRADA ':' valor '\n' 			{pal = strdup($3);}
 	| SIGNIFICADO ':' valor '\n'			{sig = strdup($3); free(fn);}
 	| TRADUCAO ':' valor '\n'			{trad = strdup($3);}
 	| SINONIMOS ':' lista ';' '\n'			{;}
+	| SINONIMOS ':' ';' '\n'			{;}
 	;
 
 valor	: PALAVRA					{$$ = strdup($1);}
@@ -53,13 +54,3 @@ int yyerror(char *s){
 	return 0;
 }
 
-int main(int argc, char** argv){
-	FILE *dic;
-	if(argc == 1)
-		printf("Por favor, introduza um ficheiro de dicionario.");
-	else
-		yyin = fopen(argv[1],"r");
-	
-	table = initHash(50);
-	return yyparse();
-}

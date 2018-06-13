@@ -1,10 +1,10 @@
-Entrada: Cena
-Significado: Seccao do filme a ser filmada.
-Traducao: Take
-Sinonimos: Cenario, Rodagem;
+Entrada: beautiful
+Significado: Something that looks good.
+Traducao: bonita
+Sinonimos: pretty, good-looking, appealing, charming;
 
-Entrada: Corta
-Significado: Terminar a filmagem a decorrer.
-Traducao: Cut
-Sinonimos: Terminar;
+Entrada: knobhead
+Significado: Used to refer to or insult a foolish person.
+Traducao: estupido
+Sinonimos: ;
 
