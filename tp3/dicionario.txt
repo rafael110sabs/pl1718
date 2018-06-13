@@ -1,10 +1,80 @@
+Entrada: anarchist
+Significado: a person who believes in or tries to bring about anarchy.
+Traducao: anarquista
+Sinonimo: ;
+
+Entrada: arrest
+Significado: seize (someone) by legal authority and take them into custody.
+Traducao: prender
+Sinonimo: seize, detain;
+
+Entrada: assignments
+Significado: a task or piece of work allocated to someone as part of a job or course of study.
+Traducao: tarefa
+Sinonimo: task, job;
+
 Entrada: beautiful
 Significado: Something that looks good.
 Traducao: bonita
 Sinonimos: pretty, good-looking, appealing, charming;
 
+Entrada: careful
+Significado: making sure of avoiding potential danger.
+Traducao: cuidado
+Sinonimo: cautious, heedful;
+
+Entrada: compliment
+Significado: a polite expression of praise or admiration.
+Traducao: elogio
+Sinonimo: commendation, praise;
+
+Entrada: dangerous
+Significado: able or likely to cause harm or injury.
+Traducao: perigoso
+Sinonimo: threatening, harmful, unsafe, risky, perilous;
+
+Entrada: funny
+Significado: causing laughter or amusement.
+Traducao: engraçado
+Sinonimo; amusing, humurous, hilarious, entertaining;
+
+Entrada: hurricane
+Significado: a storm with a violent wind.
+Traducao: furacao
+Sinonimo: cyclone, typhoon, tempest, storm;
+
 Entrada: knobhead
 Significado: Used to refer to or insult a foolish person.
 Traducao: estupido
 Sinonimos: ;
+
+Entrada: listen
+Significado: give one's attention to a sound.
+Traducao: ouvir
+Sinonimo: hear, pay attention;
+
+Entrada: monologue
+Significado: a long speech by one actor in a play or film, or as part of a theatrical or broadcast programme.
+Traducao: monologo
+Sinonimo: soliloquy, speech, dramatic homologue;
+
+Entrada: nightmare
+Significado: a frightening or unpleasant dream.
+Traducao: pesadelo
+Sinonimo: incubus;
+
+Entrada: problem
+Significado: a matter or situation regarded as unwelcome or harmful and needing to be dealt with and overcome.
+Traducao: problema
+Sinonimo: difficulty, issue, trouble, worry, complication;
+
+Entrada: romance
+Significado: a feeling of excitement and mystery associated with love.
+Traducao: romance
+Sinonimo: love, passion, ardour, adoration, devotion, affection;
+
+Entrada: understand
+Significado: perceive the intended meaning of (words, a language, or a speaker).
+Traducao: compreender
+Sinonimo: comprehend, apprehend, grasp, perceive;
 
